@@ -1,10 +1,33 @@
+#Project Description
+  
+
+server folder - server side code
+-server.js
+-Procfile [to run on heroku]
+-config folder
+    -auth.js
+    -database.js
+-route folder
+    -apiRoute [api call to db for user details]
+    -loginRoute
+    -RegisterRoute
+    
+src Folder - client side
+-app
+    -auth folder [to implement CANActivate on page that gives user list : This code is currently commented so that session based authorisation can be seen on the api routes]
+    -employee Page component
+    - login page coomponent
+    - registration page component
+
+#Route Authorisation- SessionID based auth is implemented. Passwords are hashed and salted using bcrypt. JWT is not implemented. JWT is usually implemented when we receive a token from some external authorisation (eg ping federate or Open ID). JWT sign could have been used to store user info in cookie and set expiry for session.Not implementing it here as user info is not being stored and it is not required. Here session Id is stored in cookie and expiry is set to 1 min. 
+
 # Antarctica
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run 'npm start' to start server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
