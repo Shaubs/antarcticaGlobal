@@ -2,12 +2,19 @@
   
 
 server folder - server side code
+
 -server.js
+
 -Procfile [to run on heroku]
+
 -config folder
+
     -auth.js
+    
     -database.js
+    
 -route folder
+
     -apiRoute [api call to db for user details]
     -loginRoute
     -RegisterRoute
