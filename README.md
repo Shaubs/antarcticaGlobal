@@ -4,7 +4,9 @@
 server folder - server side code
 
   -server.js
+  
   -Procfile [to run on heroku]
+  
   -config folder
 
     -auth.js
