@@ -1,5 +1,4 @@
-#Project Description
-  
+# Project Description
 
 server folder - server side code
 
@@ -27,8 +26,8 @@ src Folder - client side
       -employee Page component
       - login page coomponent
       - registration page component
-
-#Route Authorisation- 
+      
+# Route Authorisation
 
 SessionID based auth is implemented. Passwords are hashed and salted using bcrypt.
 
